@@ -625,6 +625,18 @@ header .navigation .menu i{
     display: flex;
 }
 
+.civil .row{
+    display: flex;
+}
+
+.building .row{
+    display: flex;
+}
+
+.sheq .row{
+    display: flex;
+}
+
 .gallery-col{
     flex-basis: 75%;
     position: relative;
@@ -639,6 +651,21 @@ header .navigation .menu i{
     background: #1c1b1b;
 }
 
+.civil-col{
+    flex-basis: 30%;
+    overflow: hidden;
+}
+
+.building-col{
+    flex-basis: 30%;
+    overflow: hidden;
+}
+
+.sheq-col{
+    flex-basis: 50%;
+    overflow: hidden;
+}
+
 .portfolio-col .image{
     opacity: 1;
     display: block;
@@ -646,6 +673,24 @@ header .navigation .menu i{
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+}
+
+.civil-col img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.building-col img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sheq-col img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .portfolio-col .layout1{
@@ -2061,6 +2106,18 @@ span{
     }
 
     .portfolio .row{
+        flex-direction: column;
+    }
+
+    .civil .row{
+        flex-direction: column;
+    }
+
+    .building .row{
+        flex-direction: column;
+    }
+
+    .sheq .row{
         flex-direction: column;
     }
 
